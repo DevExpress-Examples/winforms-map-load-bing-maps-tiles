@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/WinForms_MapControl_Lesson1/Form1.cs) (VB: [Form1.vb](./VB/WinForms_MapControl_Lesson1/Form1.vb))
+<!-- default file list end -->
 # XtraMap Getting Started - Lesson 1 - How to load image tiles from  Bing Maps
 
 
