@@ -3,17 +3,30 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E5069)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Form1.cs](./CS/WinForms_MapControl_Lesson1/Form1.cs) (VB: [Form1.vb](./VB/WinForms_MapControl_Lesson1/Form1.vb))
-<!-- default file list end -->
-# XtraMap Getting Started - Lesson 1 - How to load image tiles from  Bing Maps
+# Map for WinForms - Load Image Tiles From Bing Maps
 
+This example shows how to load raster image tiles from the Bing Maps imagery service and add a [mini map](https://docs.devexpress.com/WindowsForms/17683/controls-and-libraries/map-control/visual-elements/mini-map?p=netframework) to the map.
 
-<p>This example demonstrates how to connect to  <a href="http://www.bing.com/maps"><u>Bing Maps</u></a>  using the <a href="http://documentation.devexpress.com/#WindowsForms/clsDevExpressXtraMapBingMapDataProvidertopic"><u>BingMapDataProvider</u></a> object.</p><p>Note that if you run this sample as is, you will get a warning message informing that the specified Bing Maps key is invalid. To learn how to register a Bing Maps account and create a key for it, refer to the <a href="http://documentation.devexpress.com/#WindowsForms/CustomDocument15102"><u>How to: Get a Bing Maps Key</u></a> tutorial.</p><br />
+![Resulting map](Images/resulting-map.png)
 
-
-<br/>
+Use the [BingMapDataProvider](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.BingMapDataProvider?p=netframework) to load tiles from Bing Maps. You also need a key for working with Bing Maps. For instructions on how to register for a Bing Maps account and create a key for it, refer to the following help topic: [How to: Get a Bing Maps Key](https://docs.devexpress.com/WindowsForms/15102/controls-and-libraries/map-control/examples/general/how-to-get-a-bing-maps-key).
 
 
+## Files to Look At
+
+* [Form1.Designer.cs](./CS/WinForms_MapControl_Lesson1/Form1.Designer.cs) (VB: [Form1.Designer.vb](./VB/WinForms_MapControl_Lesson1/Form1.Designer.vb))
+
+## Documentation
+
+* [Lesson 1 - Load Image Tiles to a Map](https://docs.devexpress.com/WindowsForms/15098/controls-and-libraries/map-control/getting-started/lesson-1-connect-to-the-images-provider)
+* [Map Image Data](https://docs.devexpress.devx/WindowsForms/15080/controls-and-libraries/map-control/map-image-data)
+
+## More Examples
+
+* [Connect to the OpenStreetMap Service](https://github.com/DevExpress-Examples/winforms-map-connect-to-openstreetmap)
+* [Use the Bing Maps Route Web Service to Calculate Routes from Major Roads](https://github.com/DevExpress-Examples/winforms-map-calculate-routes-from-major-roads)
+* [Create a Data Provider to Load Image Tiles from a Custom Source](https://github.com/DevExpress-Examples/winforms-map-load-image-tiles-from-custom-source)
+* [Obtain Information About a Geographical Point from the Microsoft Bing Geocode Web Service](https://github.com/DevExpress-Examples/winforms-map-get-geo-point-info-from-bing-geocode-service)
+* [Calculate a Route Between Two Addresses](https://github.com/DevExpress-Examples/how-to-calculate-a-route-between-two-addresses-t364143)
+* [Calculate a route between waypoints and customize the appearance of a route path using a Microsoft Bing Maps Route web service](https://github.com/DevExpress-Examples/how-to-calculate-a-route-between-waypoints-and-customize-the-appearance-of-a-route-path-usin-e5100)
