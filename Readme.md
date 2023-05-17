@@ -20,7 +20,7 @@ Use the [BingMapDataProvider](https://docs.devexpress.com/WindowsForms/DevExpres
 ## Documentation
 
 * [Lesson 1 - Load Image Tiles to a Map](https://docs.devexpress.com/WindowsForms/15098/controls-and-libraries/map-control/getting-started/lesson-1-connect-to-the-images-provider)
-* [Map Image Data](https://docs.devexpress.devx/WindowsForms/15080/controls-and-libraries/map-control/map-image-data)
+* [Map Image Data](https://docs.devexpress.com/WindowsForms/15080/controls-and-libraries/map-control/map-image-data)
 
 ## More Examples
 
